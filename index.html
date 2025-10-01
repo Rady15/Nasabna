@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nasabna - Family Tree Management System</title>
+    <meta name="title" content="Nasabna - Family Tree Management System" />
+    <meta name="description" content="Build, explore, and share your family tree with our comprehensive genealogy platform. Connect with your roots and preserve your family's story for future generations." />
+    <meta name="keywords" content="family tree, genealogy, ancestry, family history, arabic genealogy, نسب عائلي, علم الأنساب" />
+    <meta name="author" content="Nasabna Team" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nasabna.com/" />
+    <meta property="og:title" content="Nasabna - Family Tree Management System" />
+    <meta property="og:description" content="Build, explore, and share your family tree with our comprehensive genealogy platform. Connect with your roots and preserve your family's story for future generations." />
+    <meta property="og:image" content="/src/assets/hero.jpg" />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://nasabna.com/" />
+    <meta property="twitter:title" content="Nasabna - Family Tree Management System" />
+    <meta property="twitter:description" content="Build, explore, and share your family tree with our comprehensive genealogy platform. Connect with your roots and preserve your family's story for future generations." />
+    <meta property="twitter:image" content="/src/assets/hero.jpg" />
+    
+    <!-- PWA -->
+    <meta name="theme-color" content="#10b981" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Nasabna" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Preload key assets -->
+    <link rel="preload" href="/assets/hero-C8KRVFcu.jpg" as="image">
+    
+    <style>
+      /* Loading styles */
+      #loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      
+      .dark #loading {
+        background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      }
+      
+      .loading-spinner {
+        width: 50px;
+        height: 50px;
+        border: 5px solid rgba(16, 185, 129, 0.2);
+        border-top: 5px solid #10b981;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-bottom: 20px;
+      }
+      
+      .dark .loading-spinner {
+        border: 5px solid rgba(16, 185, 129, 0.2);
+        border-top: 5px solid #10b981;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      
+      .loading-text {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #10b981;
+        font-family: 'Cairo', 'Inter', sans-serif;
+      }
+      
+      .dark .loading-text {
+        color: #10b981;
+      }
+      
+      [dir="rtl"] .loading-text {
+        font-family: 'Cairo', 'Noto Sans Arabic', sans-serif;
+      }
+    </style>
+    <script>
+      // Index.html loaded
+    </script>
+    <script type="module" crossorigin src="/assets/index-CAMdW-CE.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-BKU87Gzz.js">
+    <link rel="modulepreload" crossorigin href="/assets/query-BznAFzS8.js">
+    <link rel="modulepreload" crossorigin href="/assets/router-DDWzQd2G.js">
+    <link rel="modulepreload" crossorigin href="/assets/forms-Csk79DIL.js">
+    <link rel="modulepreload" crossorigin href="/assets/d3-D8AkCXfq.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-B-wzmNqZ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="loading">
+      <div class="loading-spinner"></div>
+      <div class="loading-text">Nasabna</div>
+    </div>
+    <script>
+      // Scripts loaded
+    </script>
+  </body>
+</html>
